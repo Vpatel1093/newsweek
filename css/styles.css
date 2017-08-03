@@ -1,0 +1,38 @@
+/* Navbar */
+nav {
+  border-bottom: 1px solid #fff;
+}
+
+nav * {
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 13px;
+  float: left;
+  max-height: 50px;
+}
+
+.container {
+  width: 100% !important;
+  border-top: 1px solid #e2e2e2;
+}
+
+.navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
+  background: #FF0500 !important;
+  font-size: 40px !important;
+}
+
+#navbar-right * {
+  border-left: 1px solid #333333;
+}
+
+#map {
+  height: 50px;
+}
+
+#sign-in {
+  box-sizing: border-box;
+}
+
+#sign-in a {
+  border-bottom: 3px solid red;
+}
