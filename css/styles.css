@@ -121,9 +121,10 @@ body {
   padding-right: 10px;
 }
 
-#articles {
+#med-article {
   border-top: 1px solid #e3e3e3;
   padding-top: 16px;
+  padding-bottom: 24px;
 }
 
 .medium h3:first-of-type, .medium ul li {
@@ -135,5 +136,44 @@ body {
 }
 
 .medium h3 {
+  font-size: 18px;
+}
+
+#small-articles {
+  border-top: 1px solid #e3e3e3;
+  height: 430px;
+}
+
+#small-articles-cont div {
+  border-top: 1px solid #e3e3e3;
+}
+
+#small-articles-cont {
+  border-bottom: 1px solid #e3e3e3;
+  height: 260px;
+}
+
+#small-articles .small:nth-of-type(-n+2), #small-articles-cont .small:nth-of-type(-n+2) {
+  border-right: 1px solid #e3e3e3;
+}
+
+.small img, .small h3:first-of-type {
+  padding-top: 18px;
+}
+
+.small {
+  height: 100%;
+}
+
+.small h3:first-of-type {
+  font-size: 16px;
+}
+
+.small h1 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.small h3 {
   font-size: 18px;
 }
