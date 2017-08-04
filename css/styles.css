@@ -1,6 +1,7 @@
 /* Navbar */
 nav {
-  border-bottom: 1px solid #fff;
+  margin-bottom: 0 !important;
+  height: 51px;
 }
 
 nav * {
@@ -13,7 +14,7 @@ nav * {
 
 .container {
   width: 100% !important;
-  border-top: 1px solid #e2e2e2;
+  border-top: 1px solid #b6b4b6;
 }
 
 .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
@@ -21,7 +22,7 @@ nav * {
   font-size: 40px !important;
 }
 
-#navbar-right * {
+#navbar-right li {
   border-left: 1px solid #333333;
 }
 
@@ -35,4 +36,43 @@ nav * {
 
 #sign-in a {
   border-bottom: 3px solid red;
+}
+
+/* Main Articles */
+body {
+  padding-top: 51px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+#main {
+  border-top: 1px solid #fff;
+}
+
+#hero {
+  width: 100%;
+  border-bottom: 3px solid red;
+}
+
+#headlines h3 {
+  color: red;
+}
+
+#headlines ul {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 16px;
+  font-size: 16px;
+}
+
+#headlines ul li::before {
+  color: red;
+  content: "\25FE";
+  padding-right: 10px;
+}
+
+#see-all {
+  font-size: 16px;
+  width: 80%;
+  position: absolute;
+  left: 5%;
 }
