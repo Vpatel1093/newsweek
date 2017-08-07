@@ -177,3 +177,30 @@ body {
 .small h3 {
   font-size: 18px;
 }
+
+.red-bottom-border {
+  border-bottom: 3px solid red;
+  height: 24px;
+}
+
+#in-the-mag {
+  padding-top: 30px;
+}
+
+#in-mag-heading {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+#in-mag-headlines div:nth-of-type(n-3) {
+  border-right: 1px solid #e3e3e3;
+}
+
+#in-mag-headlines div img {
+  padding-top: 0;
+}
+
+#in-mag-headlines {
+  padding-top: 18px;
+}
