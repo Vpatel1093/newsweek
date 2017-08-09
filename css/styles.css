@@ -57,7 +57,7 @@ body {
   color: red;
 }
 
-#headlines ul, #issue div ul {
+#headlines ul, #issue div ul, #news-pics-left ul {
   list-style: none;
   padding-left: 0;
   padding-right: 16px;
@@ -213,6 +213,44 @@ body {
 #news-in-pics div img {
   padding: 40px 10px;
   width: 98%;
+}
+
+#news-pics-left {
+  color: #fff;
+  float: right;
+  text-align: left;
+  width: 70%;
+}
+
+#news-pics-left h5 {
+  color: #00B7FF;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+#launch-slideshow {
+  color: #fff;
+  background: #00B7FF;
+  border-radius: 0;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0 0 10px 0;
+}
+
+#news-pics-left ul li::before {
+  color: #00B7FF;
+  content: "\25FE";
+  padding-right: 10px;
+}
+
+#news-pics-left p {
+  color: #999;
+}
+
+#news-pics-left h6 {
+  font-weight: bold;
 }
 
 /* August 11 Issue Section */
